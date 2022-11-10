@@ -519,7 +519,7 @@ sns.regplot(data= procentGDP2018, x="Drug Use Disorders", y="2018", ci=None)
 sns.scatterplot(data= procentGDP2018, x="Drug Use Disorders", y="2018",color="red",marker="s")
 plt.title('Regressiemodel aantal doden voorspelt door GDP')
 plt.xlabel('Percentage van bevolking overleden door drugs gebruik')
-plt.ylabel('BBP')
+plt.ylabel('GDP')
 plt.xticks(rotation=40)
 
 st.pyplot(fig)
@@ -533,7 +533,7 @@ sns.regplot(data= procentGDP2018, x="Nutritional Deficiencies", y="2018", ci=Non
 sns.scatterplot(data= procentGDP2018, x="Nutritional Deficiencies", y="2018",color="red",marker="s")
 plt.title('Regressiemodel aantal doden voorspelt door GDP')
 plt.xlabel('Percentage van bevolking overleden door Nutritional Deficiencies')
-plt.ylabel('BBP')
+plt.ylabel('GDP')
 st.pyplot(fig)
 
 
@@ -545,6 +545,6 @@ sns.regplot(data= procentGDP2018, x="Neonatal Disorders", y="2018", ci=None)
 sns.scatterplot(data= procentGDP2018, x="Neonatal Disorders", y="2018",color="red",marker="s")
 plt.title('Regressiemodel aantal doden voorspelt door GDP')
 plt.xlabel('Percentage van bevolking overleden door Neonatal Disorders')
-plt.ylabel('BBP')
+plt.ylabel('GDP')
 st.pyplot(fig)
 
