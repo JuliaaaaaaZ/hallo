@@ -309,7 +309,7 @@ st.subheader('Per jaar de belangrijkste doodsoorzaken')
 # In[34]:
 
 
-fig = px.choropleth(data,               
+fig = px.choropleth(hallo,               
               locations="Code",               
               color="Top Cause",
               hover_name="Country/Territory",  
